@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/58076750a2.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="header">our reviews</div>
-    <div id="line"><hr /></div>
-    <div id="review">
-      <div id="img"></div>
-      <div id="name">
-        Susan Smith <br />
-        <h3>WEB DEVELOPER</h3>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/58076750a2.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section class="container">
+      <div id="title">
+        <h2>our review</h2>
+        <div class="underline"></div>
       </div>
-      <div id="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-      <div id="brackets">
-        <button id="right_angle_brackets"><i class="fa-solid fa-less-than"></i></button>
-        <button id="left_angle_brackets"><i class="fa-solid fa-greater-than"></i></button>
-      </div>
-      <button id="btn">surprise me</button>
-    </div>
-    <script src="./app.js"></script>
-  </body>
+      <!-- review -->
+      <article class="review">
+        <div class="img-container">
+          <img src="" id="person-img" alt="" srcset="">
+        </div>
+        <h4 id="author">sara joans</h4>
+        <p id="job">web dev</p>
+        <p id="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eaque iste, cupiditate error aliquid corrupti.</p>
+        <!-- buttons -->
+        <div class="button-container">
+          <button class="prev-button">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-button">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <!-- random button -->
+        <button class="random-btn">surprise me</button>
+      </article>
+    </section>
+  </main>
+</body>
 </html>
