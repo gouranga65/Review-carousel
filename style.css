@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 1px solid black;
+    width: 57%;
+    height: 400px;
+    position: absolute;
+    left: 19%;
+    top: 50px;
+}
+.image{
+    border: 2px solid red;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 1%;
+}
+.name_position{
+    position: absolute;
+    left: 43.5%;
+    top: 42%;
+    text-align: center;
+}
+.review{
+    position: absolute;
+    border: 1px solid red;
+    left: 2%;
+    top: 49%;
+    text-align: center;
+}
+.buttons{
+    position: absolute;
+    left: 45%;
+    top: 54%;
+}
+.random{
+    position: absolute;
+    left: 43.5%;
+    top: 61%;
+}
