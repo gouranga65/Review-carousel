@@ -1,44 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.box{
-    border: 1px solid black;
-    width: 57%;
-    height: 400px;
-    position: absolute;
-    left: 19%;
-    top: 50px;
+.box {
+  border: 1px solid black;
+  width: 57%;
+  height: 400px;
+  position: absolute;
+  left: 21%;
+  top: 90px;
 }
-.image{
-    border: 2px solid red;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    position: absolute;
-    left: 40%;
-    top: 1%;
+.image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 1%;
 }
-.name_position{
-    position: absolute;
-    left: 43.5%;
-    top: 42%;
-    text-align: center;
+.name_position {
+  position: absolute;
+  text-align: center;
+  top: 42%;
+  margin-top: 5px;
+  width: 100%;
 }
-.review{
-    position: absolute;
-    border: 1px solid red;
-    left: 2%;
-    top: 49%;
-    text-align: center;
+.position {
+  margin-top: 5px;
 }
-.buttons{
-    position: absolute;
-    left: 45%;
-    top: 54%;
+.review {
+  position: absolute;
+  height: 70px;
+  top: 53%;
+  width: 100%;
+  margin-top: 8px;
 }
-.random{
-    position: absolute;
-    left: 43.5%;
-    top: 61%;
+.buttons {
+  position: absolute;
+  left: 45.5%;
+  top: 73%;
+}
+.random {
+  position: absolute;
+  left: 46.5%;
+  top: 79.9%;
+}
+button {
+  cursor: pointer;
+}
+.leftsideBtn,
+.rightsideBtn {
+  width: 40px;
 }
